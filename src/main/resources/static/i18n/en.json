@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Literary Oracle",
+    "description": "Literary Oracle"
+  },
+  "result": {
+    "originalLanguageLabel": "Original language",
+    "chanceLevelLabel": "Chance level",
+    "archiveOpenedToLabel": "Archive opened to",
+    "detailsAriaLabel": "Passage details"
+  },
+  "types": {
+    "poem": "Poem",
+    "essay": "Essay",
+    "play": "Play",
+    "haiku": "Haiku",
+    "letter": "Letter",
+    "diary": "Diary",
+    "novel": "Novel",
+    "novel_in_verse": "Novel in verse",
+    "novella": "Novella",
+    "short_story": "Short story",
+    "prose": "Prose",
+    "aphorism": "Aphorism",
+    "other": "Literary passage"
+  },
+  "chanceLevels": {
+    "MEANING_LED": "Meaning-led",
+    "BALANCED": "Balanced",
+    "CHANCE_LED": "Chance-led",
+    "CLOSE_TO_WORDS": "Closer to the text",
+    "LEAVE_MORE_TO_CHANCE": "More chance",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High"
+  },
+  "statuses": {
+    "ORIGINAL_PUBLIC_DOMAIN": "Original text is in the public domain",
+    "ORIGINAL_PUBLIC_DOMAIN_UK_US_2026": "Original text is in the public domain in the United Kingdom and United States as of 2026",
+    "TRANSLATION_PROJECT_AUTHORED": "Translation prepared for this project",
+    "PUBLIC_DOMAIN": "Public domain",
+    "PUBLIC_DOMAIN_IN_SOURCE_COUNTRY": "Public domain in the source country",
+    "VERIFY_LOCAL_STATUS": "Verify status in your jurisdiction",
+    "PUBLIC_DOMAIN_IN_US": "Public domain in the United States",
+    "NOT_YET_VERIFIED": "Not yet verified"
+  },
+  "errors": {
+    "required": "Write something before drawing from the archive.",
+    "tooLong": "Keep the text to 4,000 characters or fewer.",
+    "unreadable": "The server returned an unreadable response. Try again.",
+    "api": "The request could not be completed. Try again.",
+    "network": "The network connection failed. Check the connection and try again."
+  },
+  "crisis": {
+    "message": "If you may hurt yourself or are in immediate danger, contact your local emergency services now. Contact someone you trust and ask them to stay with you while you reach support. You can also find confidential support in your country through Find a Helpline."
+  },
+  "safetyConfirmation": {
+    "title": "Are you safe right now?",
+    "message": "If you may act on thoughts of hurting yourself, immediate human support matters more than a literary passage.",
+    "needSupport": "I need immediate support",
+    "continue": "I’m safe right now — continue"
+  },
+  "saved": {
+    "errors": {
+      "invalid": "This passage could not be saved in this browser.",
+      "unavailable": "Saved passages are unavailable in this browser.",
+      "corrupt": "Some saved passages could not be read.",
+      "write": "This passage could not be saved. Browser storage may be full."
+    }
+  }
+}

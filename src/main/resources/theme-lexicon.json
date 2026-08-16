@@ -1,0 +1,3311 @@
+{
+  "languages": {
+    "en": {
+      "uncertainty": {
+        "label": "Uncertainty",
+        "terms": [
+          "uncertain",
+          "unsure",
+          "not sure",
+          "doubt",
+          "confused",
+          "do not know"
+        ]
+      },
+      "change": {
+        "label": "Change",
+        "terms": [
+          "change",
+          "changing",
+          "transition",
+          "new beginning",
+          "move on"
+        ]
+      },
+      "loneliness": {
+        "label": "Loneliness",
+        "terms": [
+          "lonely",
+          "alone",
+          "isolated",
+          "no one",
+          "solitude"
+        ]
+      },
+      "boundaries": {
+        "label": "Boundaries",
+        "terms": [
+          "boundary",
+          "boundaries",
+          "say no",
+          "limit",
+          "protect myself"
+        ]
+      },
+      "courage": {
+        "label": "Courage",
+        "terms": [
+          "courage",
+          "brave",
+          "afraid",
+          "fear",
+          "dare"
+        ]
+      },
+      "grief": {
+        "label": "Grief",
+        "terms": [
+          "grief",
+          "loss",
+          "mourning",
+          "miss them",
+          "bereaved"
+        ]
+      },
+      "rest": {
+        "label": "Rest",
+        "terms": [
+          "rest",
+          "tired",
+          "exhausted",
+          "sleep",
+          "slow down"
+        ]
+      },
+      "identity": {
+        "label": "Identity",
+        "terms": [
+          "identity",
+          "who am I",
+          "myself",
+          "self",
+          "be myself"
+        ]
+      },
+      "hope": {
+        "label": "Hope",
+        "terms": [
+          "hope",
+          "hopeful",
+          "future",
+          "possibility",
+          "better days"
+        ]
+      },
+      "belonging": {
+        "label": "Belonging",
+        "terms": [
+          "belong",
+          "home",
+          "accepted",
+          "community",
+          "fit in"
+        ]
+      },
+      "love": {
+        "label": "Love",
+        "terms": [
+          "love",
+          "affection",
+          "beloved",
+          "relationship"
+        ]
+      },
+      "time": {
+        "label": "Time",
+        "terms": [
+          "time",
+          "years",
+          "aging",
+          "the past"
+        ]
+      },
+      "mortality": {
+        "label": "Mortality",
+        "terms": [
+          "mortality",
+          "death",
+          "mortal",
+          "impermanence"
+        ]
+      },
+      "freedom": {
+        "label": "Freedom",
+        "terms": [
+          "freedom",
+          "free",
+          "liberty",
+          "release"
+        ]
+      },
+      "meaning": {
+        "label": "Meaning",
+        "terms": [
+          "meaning",
+          "purpose",
+          "significance",
+          "why am I here"
+        ]
+      },
+      "self-worth": {
+        "label": "Self-worth",
+        "terms": [
+          "self-worth",
+          "worthy",
+          "good enough",
+          "self-esteem"
+        ]
+      },
+      "nature": {
+        "label": "Nature",
+        "terms": [
+          "nature",
+          "forest",
+          "sea",
+          "sky"
+        ]
+      },
+      "joy": {
+        "label": "Joy",
+        "terms": [
+          "joy",
+          "happy",
+          "delight",
+          "laughter"
+        ]
+      }
+    },
+    "zh-Hans": {
+      "uncertainty": {
+        "label": "不确定",
+        "terms": [
+          "不确定",
+          "不知道",
+          "迷茫",
+          "犹豫",
+          "困惑"
+        ]
+      },
+      "change": {
+        "label": "改变",
+        "terms": [
+          "改变",
+          "变化",
+          "转变",
+          "重新开始",
+          "告别过去"
+        ]
+      },
+      "loneliness": {
+        "label": "孤独",
+        "terms": [
+          "孤独",
+          "孤单",
+          "独自",
+          "没人理解",
+          "疏离"
+        ]
+      },
+      "boundaries": {
+        "label": "边界",
+        "terms": [
+          "边界",
+          "界限",
+          "拒绝",
+          "说不",
+          "保护自己"
+        ]
+      },
+      "courage": {
+        "label": "勇气",
+        "terms": [
+          "勇气",
+          "勇敢",
+          "害怕",
+          "恐惧",
+          "敢不敢"
+        ]
+      },
+      "grief": {
+        "label": "哀伤",
+        "terms": [
+          "哀伤",
+          "悲痛",
+          "失去",
+          "悼念",
+          "想念逝者"
+        ]
+      },
+      "rest": {
+        "label": "休息",
+        "terms": [
+          "休息",
+          "累",
+          "疲惫",
+          "睡眠",
+          "慢下来"
+        ]
+      },
+      "identity": {
+        "label": "自我",
+        "terms": [
+          "自我",
+          "身份",
+          "我是谁",
+          "做自己",
+          "认同"
+        ]
+      },
+      "hope": {
+        "label": "希望",
+        "terms": [
+          "希望",
+          "盼望",
+          "未来",
+          "可能",
+          "会好起来"
+        ]
+      },
+      "belonging": {
+        "label": "归属",
+        "terms": [
+          "归属",
+          "属于",
+          "家",
+          "被接纳",
+          "融入"
+        ]
+      },
+      "love": {
+        "label": "爱",
+        "terms": [
+          "爱",
+          "爱情",
+          "相爱",
+          "心爱"
+        ]
+      },
+      "time": {
+        "label": "时间",
+        "terms": [
+          "时间",
+          "岁月",
+          "时光",
+          "过去"
+        ]
+      },
+      "mortality": {
+        "label": "生死",
+        "terms": [
+          "死亡",
+          "生命有限",
+          "终有一死",
+          "无常"
+        ]
+      },
+      "freedom": {
+        "label": "自由",
+        "terms": [
+          "自由",
+          "解脱",
+          "自主",
+          "不受束缚"
+        ]
+      },
+      "meaning": {
+        "label": "意义",
+        "terms": [
+          "意义",
+          "目的",
+          "人生价值",
+          "为何存在"
+        ]
+      },
+      "self-worth": {
+        "label": "自我价值",
+        "terms": [
+          "自我价值",
+          "值得",
+          "我不够好",
+          "自尊"
+        ]
+      },
+      "nature": {
+        "label": "自然",
+        "terms": [
+          "自然",
+          "森林",
+          "大海",
+          "天空"
+        ]
+      },
+      "joy": {
+        "label": "喜悦",
+        "terms": [
+          "喜悦",
+          "快乐",
+          "开心",
+          "欢欣"
+        ]
+      }
+    },
+    "zh-Hant": {
+      "uncertainty": {
+        "label": "不確定",
+        "terms": [
+          "不確定",
+          "不知道",
+          "迷惘",
+          "猶豫",
+          "困惑"
+        ]
+      },
+      "change": {
+        "label": "改變",
+        "terms": [
+          "改變",
+          "變化",
+          "轉變",
+          "重新開始",
+          "告別過去"
+        ]
+      },
+      "loneliness": {
+        "label": "孤獨",
+        "terms": [
+          "孤獨",
+          "孤單",
+          "獨自",
+          "沒人理解",
+          "疏離"
+        ]
+      },
+      "boundaries": {
+        "label": "界線",
+        "terms": [
+          "界線",
+          "界限",
+          "拒絕",
+          "說不",
+          "保護自己"
+        ]
+      },
+      "courage": {
+        "label": "勇氣",
+        "terms": [
+          "勇氣",
+          "勇敢",
+          "害怕",
+          "恐懼",
+          "敢不敢"
+        ]
+      },
+      "grief": {
+        "label": "哀傷",
+        "terms": [
+          "哀傷",
+          "悲痛",
+          "失去",
+          "悼念",
+          "想念逝者"
+        ]
+      },
+      "rest": {
+        "label": "休息",
+        "terms": [
+          "休息",
+          "累",
+          "疲憊",
+          "睡眠",
+          "慢下來"
+        ]
+      },
+      "identity": {
+        "label": "自我",
+        "terms": [
+          "自我",
+          "身分",
+          "我是誰",
+          "做自己",
+          "認同"
+        ]
+      },
+      "hope": {
+        "label": "希望",
+        "terms": [
+          "希望",
+          "盼望",
+          "未來",
+          "可能",
+          "會好起來"
+        ]
+      },
+      "belonging": {
+        "label": "歸屬",
+        "terms": [
+          "歸屬",
+          "屬於",
+          "家",
+          "被接納",
+          "融入"
+        ]
+      },
+      "love": {
+        "label": "愛",
+        "terms": [
+          "愛",
+          "愛情",
+          "相愛",
+          "心愛"
+        ]
+      },
+      "time": {
+        "label": "時間",
+        "terms": [
+          "時間",
+          "歲月",
+          "時光",
+          "過去"
+        ]
+      },
+      "mortality": {
+        "label": "生死",
+        "terms": [
+          "死亡",
+          "生命有限",
+          "終有一死",
+          "無常"
+        ]
+      },
+      "freedom": {
+        "label": "自由",
+        "terms": [
+          "自由",
+          "解脫",
+          "自主",
+          "不受束縛"
+        ]
+      },
+      "meaning": {
+        "label": "意義",
+        "terms": [
+          "意義",
+          "目的",
+          "人生價值",
+          "為何存在"
+        ]
+      },
+      "self-worth": {
+        "label": "自我價值",
+        "terms": [
+          "自我價值",
+          "值得",
+          "我不夠好",
+          "自尊"
+        ]
+      },
+      "nature": {
+        "label": "自然",
+        "terms": [
+          "自然",
+          "森林",
+          "大海",
+          "天空"
+        ]
+      },
+      "joy": {
+        "label": "喜悅",
+        "terms": [
+          "喜悅",
+          "快樂",
+          "開心",
+          "歡欣"
+        ]
+      }
+    },
+    "ja": {
+      "uncertainty": {
+        "label": "不確かさ",
+        "terms": [
+          "不確か",
+          "分からない",
+          "迷う",
+          "ためらう",
+          "困惑"
+        ]
+      },
+      "change": {
+        "label": "変化",
+        "terms": [
+          "変化",
+          "変わる",
+          "転機",
+          "新しい始まり",
+          "前に進む"
+        ]
+      },
+      "loneliness": {
+        "label": "孤独",
+        "terms": [
+          "孤独",
+          "寂しい",
+          "ひとり",
+          "孤立",
+          "疎外感"
+        ]
+      },
+      "boundaries": {
+        "label": "境界",
+        "terms": [
+          "境界",
+          "限界",
+          "断る",
+          "嫌と言う",
+          "自分を守る"
+        ]
+      },
+      "courage": {
+        "label": "勇気",
+        "terms": [
+          "勇気",
+          "勇敢",
+          "怖い",
+          "恐れ",
+          "踏み出す"
+        ]
+      },
+      "grief": {
+        "label": "悲嘆",
+        "terms": [
+          "悲嘆",
+          "悲しみ",
+          "喪失",
+          "哀悼",
+          "亡くした"
+        ]
+      },
+      "rest": {
+        "label": "休息",
+        "terms": [
+          "休息",
+          "疲れた",
+          "消耗",
+          "眠る",
+          "立ち止まる"
+        ]
+      },
+      "identity": {
+        "label": "自己",
+        "terms": [
+          "自己",
+          "自分は誰",
+          "自分らしさ",
+          "アイデンティティ",
+          "本当の自分"
+        ]
+      },
+      "hope": {
+        "label": "希望",
+        "terms": [
+          "希望",
+          "望み",
+          "未来",
+          "可能性",
+          "良くなる"
+        ]
+      },
+      "belonging": {
+        "label": "居場所",
+        "terms": [
+          "居場所",
+          "属する",
+          "家",
+          "受け入れられる",
+          "仲間"
+        ]
+      },
+      "love": {
+        "label": "愛",
+        "terms": [
+          "愛",
+          "恋",
+          "愛情",
+          "愛する人"
+        ]
+      },
+      "time": {
+        "label": "時間",
+        "terms": [
+          "時間",
+          "歳月",
+          "時の流れ",
+          "過去"
+        ]
+      },
+      "mortality": {
+        "label": "死すべき命",
+        "terms": [
+          "死",
+          "死すべき",
+          "無常",
+          "命の限り"
+        ]
+      },
+      "freedom": {
+        "label": "自由",
+        "terms": [
+          "自由",
+          "解放",
+          "束縛されない",
+          "自立"
+        ]
+      },
+      "meaning": {
+        "label": "意味",
+        "terms": [
+          "意味",
+          "目的",
+          "生きる意味",
+          "存在意義"
+        ]
+      },
+      "self-worth": {
+        "label": "自己価値",
+        "terms": [
+          "自己価値",
+          "価値がある",
+          "自尊心",
+          "自分を認める"
+        ]
+      },
+      "nature": {
+        "label": "自然",
+        "terms": [
+          "自然",
+          "森",
+          "海",
+          "空"
+        ]
+      },
+      "joy": {
+        "label": "喜び",
+        "terms": [
+          "喜び",
+          "幸せ",
+          "嬉しい",
+          "笑い"
+        ]
+      }
+    },
+    "ko": {
+      "uncertainty": {
+        "label": "불확실함",
+        "terms": [
+          "불확실",
+          "모르겠다",
+          "망설이다",
+          "혼란",
+          "의심"
+        ]
+      },
+      "change": {
+        "label": "변화",
+        "terms": [
+          "변화",
+          "바뀌다",
+          "전환",
+          "새 출발",
+          "앞으로 나아가다"
+        ]
+      },
+      "loneliness": {
+        "label": "외로움",
+        "terms": [
+          "외롭다",
+          "혼자",
+          "고립",
+          "아무도 없다",
+          "소외"
+        ]
+      },
+      "boundaries": {
+        "label": "경계",
+        "terms": [
+          "경계",
+          "한계",
+          "거절",
+          "싫다고 말하다",
+          "나를 지키다"
+        ]
+      },
+      "courage": {
+        "label": "용기",
+        "terms": [
+          "용기",
+          "용감하다",
+          "두렵다",
+          "공포",
+          "도전하다"
+        ]
+      },
+      "grief": {
+        "label": "슬픔",
+        "terms": [
+          "슬픔",
+          "상실",
+          "애도",
+          "그립다",
+          "사별"
+        ]
+      },
+      "rest": {
+        "label": "휴식",
+        "terms": [
+          "휴식",
+          "피곤하다",
+          "지치다",
+          "잠",
+          "쉬어 가다"
+        ]
+      },
+      "identity": {
+        "label": "정체성",
+        "terms": [
+          "정체성",
+          "나는 누구",
+          "나 자신",
+          "자아",
+          "나다움"
+        ]
+      },
+      "hope": {
+        "label": "희망",
+        "terms": [
+          "희망",
+          "바라다",
+          "미래",
+          "가능성",
+          "나아질 것"
+        ]
+      },
+      "belonging": {
+        "label": "소속감",
+        "terms": [
+          "소속",
+          "속하다",
+          "집",
+          "받아들여지다",
+          "공동체"
+        ]
+      },
+      "love": {
+        "label": "사랑",
+        "terms": [
+          "사랑",
+          "애정",
+          "연인",
+          "사랑하다"
+        ]
+      },
+      "time": {
+        "label": "시간",
+        "terms": [
+          "시간",
+          "세월",
+          "지난날",
+          "흐르는 때"
+        ]
+      },
+      "mortality": {
+        "label": "필멸",
+        "terms": [
+          "죽음",
+          "필멸",
+          "무상",
+          "삶의 유한함"
+        ]
+      },
+      "freedom": {
+        "label": "자유",
+        "terms": [
+          "자유",
+          "해방",
+          "속박에서 벗어나다",
+          "자율"
+        ]
+      },
+      "meaning": {
+        "label": "의미",
+        "terms": [
+          "의미",
+          "목적",
+          "삶의 의미",
+          "존재 이유"
+        ]
+      },
+      "self-worth": {
+        "label": "자기 가치",
+        "terms": [
+          "자기 가치",
+          "가치 있다",
+          "자존감",
+          "충분한 사람"
+        ]
+      },
+      "nature": {
+        "label": "자연",
+        "terms": [
+          "자연",
+          "숲",
+          "바다",
+          "하늘"
+        ]
+      },
+      "joy": {
+        "label": "기쁨",
+        "terms": [
+          "기쁨",
+          "행복",
+          "즐거움",
+          "웃음"
+        ]
+      }
+    },
+    "es": {
+      "uncertainty": {
+        "label": "Incertidumbre",
+        "terms": [
+          "incertidumbre",
+          "no sé",
+          "duda",
+          "confusión",
+          "indecisión"
+        ]
+      },
+      "change": {
+        "label": "Cambio",
+        "terms": [
+          "cambio",
+          "cambiar",
+          "transición",
+          "nuevo comienzo",
+          "seguir adelante"
+        ]
+      },
+      "loneliness": {
+        "label": "Soledad",
+        "terms": [
+          "soledad",
+          "solo",
+          "sola",
+          "aislado",
+          "nadie"
+        ]
+      },
+      "boundaries": {
+        "label": "Límites",
+        "terms": [
+          "límites",
+          "límite",
+          "decir no",
+          "rechazar",
+          "protegerme"
+        ]
+      },
+      "courage": {
+        "label": "Valor",
+        "terms": [
+          "valor",
+          "valentía",
+          "miedo",
+          "atreverse",
+          "ser valiente"
+        ]
+      },
+      "grief": {
+        "label": "Duelo",
+        "terms": [
+          "duelo",
+          "pérdida",
+          "luto",
+          "pena",
+          "echar de menos"
+        ]
+      },
+      "rest": {
+        "label": "Descanso",
+        "terms": [
+          "descanso",
+          "cansado",
+          "agotada",
+          "dormir",
+          "ir más despacio"
+        ]
+      },
+      "identity": {
+        "label": "Identidad",
+        "terms": [
+          "identidad",
+          "quién soy",
+          "yo mismo",
+          "yo misma",
+          "ser yo"
+        ]
+      },
+      "hope": {
+        "label": "Esperanza",
+        "terms": [
+          "esperanza",
+          "esperar",
+          "futuro",
+          "posibilidad",
+          "mejorará"
+        ]
+      },
+      "belonging": {
+        "label": "Pertenencia",
+        "terms": [
+          "pertenecer",
+          "hogar",
+          "aceptado",
+          "comunidad",
+          "encajar"
+        ]
+      },
+      "love": {
+        "label": "Amor",
+        "terms": [
+          "amor",
+          "amar",
+          "afecto",
+          "ser querido"
+        ]
+      },
+      "time": {
+        "label": "Tiempo",
+        "terms": [
+          "tiempo",
+          "años",
+          "pasado",
+          "envejecer"
+        ]
+      },
+      "mortality": {
+        "label": "Mortalidad",
+        "terms": [
+          "mortalidad",
+          "muerte",
+          "mortal",
+          "impermanencia"
+        ]
+      },
+      "freedom": {
+        "label": "Libertad",
+        "terms": [
+          "libertad",
+          "libre",
+          "liberación",
+          "independencia"
+        ]
+      },
+      "meaning": {
+        "label": "Sentido",
+        "terms": [
+          "sentido",
+          "propósito",
+          "significado",
+          "razón de vivir"
+        ]
+      },
+      "self-worth": {
+        "label": "Valor propio",
+        "terms": [
+          "valor propio",
+          "digno",
+          "ser suficiente",
+          "autoestima"
+        ]
+      },
+      "nature": {
+        "label": "Naturaleza",
+        "terms": [
+          "naturaleza",
+          "bosque",
+          "mar",
+          "cielo"
+        ]
+      },
+      "joy": {
+        "label": "Alegría",
+        "terms": [
+          "alegría",
+          "feliz",
+          "deleite",
+          "risa"
+        ]
+      }
+    },
+    "fr": {
+      "uncertainty": {
+        "label": "Incertitude",
+        "terms": [
+          "incertitude",
+          "je ne sais pas",
+          "doute",
+          "confusion",
+          "hésiter"
+        ]
+      },
+      "change": {
+        "label": "Changement",
+        "terms": [
+          "changement",
+          "changer",
+          "transition",
+          "nouveau départ",
+          "avancer"
+        ]
+      },
+      "loneliness": {
+        "label": "Solitude",
+        "terms": [
+          "solitude",
+          "seul",
+          "seule",
+          "isolé",
+          "personne"
+        ]
+      },
+      "boundaries": {
+        "label": "Limites",
+        "terms": [
+          "limites",
+          "limite",
+          "dire non",
+          "refuser",
+          "me protéger"
+        ]
+      },
+      "courage": {
+        "label": "Courage",
+        "terms": [
+          "courage",
+          "brave",
+          "peur",
+          "oser",
+          "affronter"
+        ]
+      },
+      "grief": {
+        "label": "Deuil",
+        "terms": [
+          "deuil",
+          "perte",
+          "chagrin",
+          "pleurer",
+          "manquer"
+        ]
+      },
+      "rest": {
+        "label": "Repos",
+        "terms": [
+          "repos",
+          "fatigué",
+          "épuisée",
+          "dormir",
+          "ralentir"
+        ]
+      },
+      "identity": {
+        "label": "Identité",
+        "terms": [
+          "identité",
+          "qui suis-je",
+          "moi-même",
+          "être soi",
+          "soi"
+        ]
+      },
+      "hope": {
+        "label": "Espoir",
+        "terms": [
+          "espoir",
+          "espérer",
+          "avenir",
+          "possibilité",
+          "jours meilleurs"
+        ]
+      },
+      "belonging": {
+        "label": "Appartenance",
+        "terms": [
+          "appartenir",
+          "chez soi",
+          "accepté",
+          "communauté",
+          "trouver sa place"
+        ]
+      },
+      "love": {
+        "label": "Amour",
+        "terms": [
+          "amour",
+          "aimer",
+          "affection",
+          "bien-aimé"
+        ]
+      },
+      "time": {
+        "label": "Temps",
+        "terms": [
+          "temps",
+          "années",
+          "passé",
+          "vieillir"
+        ]
+      },
+      "mortality": {
+        "label": "Mortalité",
+        "terms": [
+          "mortalité",
+          "mort",
+          "mortel",
+          "impermanence"
+        ]
+      },
+      "freedom": {
+        "label": "Liberté",
+        "terms": [
+          "liberté",
+          "libre",
+          "libération",
+          "indépendance"
+        ]
+      },
+      "meaning": {
+        "label": "Sens",
+        "terms": [
+          "sens",
+          "but",
+          "signification",
+          "raison de vivre"
+        ]
+      },
+      "self-worth": {
+        "label": "Valeur personnelle",
+        "terms": [
+          "valeur personnelle",
+          "digne",
+          "être à la hauteur",
+          "estime de soi"
+        ]
+      },
+      "nature": {
+        "label": "Nature",
+        "terms": [
+          "nature",
+          "forêt",
+          "mer",
+          "ciel"
+        ]
+      },
+      "joy": {
+        "label": "Joie",
+        "terms": [
+          "joie",
+          "heureux",
+          "ravissement",
+          "rire"
+        ]
+      }
+    },
+    "de": {
+      "uncertainty": {
+        "label": "Ungewissheit",
+        "terms": [
+          "ungewiss",
+          "ich weiß nicht",
+          "Zweifel",
+          "verwirrt",
+          "unsicher"
+        ]
+      },
+      "change": {
+        "label": "Veränderung",
+        "terms": [
+          "Veränderung",
+          "verändern",
+          "Übergang",
+          "Neuanfang",
+          "weitergehen"
+        ]
+      },
+      "loneliness": {
+        "label": "Einsamkeit",
+        "terms": [
+          "einsam",
+          "allein",
+          "isoliert",
+          "niemand",
+          "Abgeschiedenheit"
+        ]
+      },
+      "boundaries": {
+        "label": "Grenzen",
+        "terms": [
+          "Grenzen",
+          "Grenze",
+          "Nein sagen",
+          "ablehnen",
+          "mich schützen"
+        ]
+      },
+      "courage": {
+        "label": "Mut",
+        "terms": [
+          "Mut",
+          "mutig",
+          "Angst",
+          "wagen",
+          "fürchten"
+        ]
+      },
+      "grief": {
+        "label": "Trauer",
+        "terms": [
+          "Trauer",
+          "Verlust",
+          "trauern",
+          "vermissen",
+          "Hinterbliebene"
+        ]
+      },
+      "rest": {
+        "label": "Ruhe",
+        "terms": [
+          "Ruhe",
+          "müde",
+          "erschöpft",
+          "schlafen",
+          "langsamer werden"
+        ]
+      },
+      "identity": {
+        "label": "Identität",
+        "terms": [
+          "Identität",
+          "wer bin ich",
+          "ich selbst",
+          "Selbst",
+          "ich sein"
+        ]
+      },
+      "hope": {
+        "label": "Hoffnung",
+        "terms": [
+          "Hoffnung",
+          "hoffen",
+          "Zukunft",
+          "Möglichkeit",
+          "bessere Zeiten"
+        ]
+      },
+      "belonging": {
+        "label": "Zugehörigkeit",
+        "terms": [
+          "zugehören",
+          "Zuhause",
+          "angenommen",
+          "Gemeinschaft",
+          "dazugehören"
+        ]
+      },
+      "love": {
+        "label": "Liebe",
+        "terms": [
+          "Liebe",
+          "lieben",
+          "Zuneigung",
+          "geliebt"
+        ]
+      },
+      "time": {
+        "label": "Zeit",
+        "terms": [
+          "Zeit",
+          "Jahre",
+          "Vergangenheit",
+          "altern"
+        ]
+      },
+      "mortality": {
+        "label": "Sterblichkeit",
+        "terms": [
+          "Sterblichkeit",
+          "Tod",
+          "sterblich",
+          "Vergänglichkeit"
+        ]
+      },
+      "freedom": {
+        "label": "Freiheit",
+        "terms": [
+          "Freiheit",
+          "frei",
+          "Befreiung",
+          "Unabhängigkeit"
+        ]
+      },
+      "meaning": {
+        "label": "Sinn",
+        "terms": [
+          "Sinn",
+          "Zweck",
+          "Bedeutung",
+          "Lebenssinn"
+        ]
+      },
+      "self-worth": {
+        "label": "Selbstwert",
+        "terms": [
+          "Selbstwert",
+          "würdig",
+          "gut genug",
+          "Selbstachtung"
+        ]
+      },
+      "nature": {
+        "label": "Natur",
+        "terms": [
+          "Natur",
+          "Wald",
+          "Meer",
+          "Himmel"
+        ]
+      },
+      "joy": {
+        "label": "Freude",
+        "terms": [
+          "Freude",
+          "glücklich",
+          "Entzücken",
+          "Lachen"
+        ]
+      }
+    },
+    "it": {
+      "uncertainty": {
+        "label": "Incertezza",
+        "terms": [
+          "incertezza",
+          "non so",
+          "dubbio",
+          "confusione",
+          "esitare"
+        ]
+      },
+      "change": {
+        "label": "Cambiamento",
+        "terms": [
+          "cambiamento",
+          "cambiare",
+          "transizione",
+          "nuovo inizio",
+          "andare avanti"
+        ]
+      },
+      "loneliness": {
+        "label": "Solitudine",
+        "terms": [
+          "solitudine",
+          "solo",
+          "sola",
+          "isolato",
+          "nessuno"
+        ]
+      },
+      "boundaries": {
+        "label": "Confini",
+        "terms": [
+          "confini",
+          "limite",
+          "dire no",
+          "rifiutare",
+          "proteggermi"
+        ]
+      },
+      "courage": {
+        "label": "Coraggio",
+        "terms": [
+          "coraggio",
+          "coraggioso",
+          "paura",
+          "osare",
+          "affrontare"
+        ]
+      },
+      "grief": {
+        "label": "Lutto",
+        "terms": [
+          "lutto",
+          "perdita",
+          "dolore",
+          "piangere",
+          "mancanza"
+        ]
+      },
+      "rest": {
+        "label": "Riposo",
+        "terms": [
+          "riposo",
+          "stanco",
+          "esausta",
+          "dormire",
+          "rallentare"
+        ]
+      },
+      "identity": {
+        "label": "Identità",
+        "terms": [
+          "identità",
+          "chi sono",
+          "me stesso",
+          "me stessa",
+          "essere me"
+        ]
+      },
+      "hope": {
+        "label": "Speranza",
+        "terms": [
+          "speranza",
+          "sperare",
+          "futuro",
+          "possibilità",
+          "giorni migliori"
+        ]
+      },
+      "belonging": {
+        "label": "Appartenenza",
+        "terms": [
+          "appartenere",
+          "casa",
+          "accettato",
+          "comunità",
+          "sentirsi parte"
+        ]
+      },
+      "love": {
+        "label": "Amore",
+        "terms": [
+          "amore",
+          "amare",
+          "affetto",
+          "persona amata"
+        ]
+      },
+      "time": {
+        "label": "Tempo",
+        "terms": [
+          "tempo",
+          "anni",
+          "passato",
+          "invecchiare"
+        ]
+      },
+      "mortality": {
+        "label": "Mortalità",
+        "terms": [
+          "mortalità",
+          "morte",
+          "mortale",
+          "impermanenza"
+        ]
+      },
+      "freedom": {
+        "label": "Libertà",
+        "terms": [
+          "libertà",
+          "libero",
+          "liberazione",
+          "indipendenza"
+        ]
+      },
+      "meaning": {
+        "label": "Senso",
+        "terms": [
+          "senso",
+          "scopo",
+          "significato",
+          "ragione di vivere"
+        ]
+      },
+      "self-worth": {
+        "label": "Valore di sé",
+        "terms": [
+          "valore di sé",
+          "degno",
+          "essere abbastanza",
+          "autostima"
+        ]
+      },
+      "nature": {
+        "label": "Natura",
+        "terms": [
+          "natura",
+          "bosco",
+          "mare",
+          "cielo"
+        ]
+      },
+      "joy": {
+        "label": "Gioia",
+        "terms": [
+          "gioia",
+          "felice",
+          "letizia",
+          "risata"
+        ]
+      }
+    },
+    "pt": {
+      "uncertainty": {
+        "label": "Incerteza",
+        "terms": [
+          "incerteza",
+          "não sei",
+          "dúvida",
+          "confusão",
+          "hesitar"
+        ]
+      },
+      "change": {
+        "label": "Mudança",
+        "terms": [
+          "mudança",
+          "mudar",
+          "transição",
+          "novo começo",
+          "seguir em frente"
+        ]
+      },
+      "loneliness": {
+        "label": "Solidão",
+        "terms": [
+          "solidão",
+          "sozinho",
+          "sozinha",
+          "isolado",
+          "ninguém"
+        ]
+      },
+      "boundaries": {
+        "label": "Limites",
+        "terms": [
+          "limites",
+          "limite",
+          "dizer não",
+          "recusar",
+          "me proteger"
+        ]
+      },
+      "courage": {
+        "label": "Coragem",
+        "terms": [
+          "coragem",
+          "corajoso",
+          "medo",
+          "ousar",
+          "enfrentar"
+        ]
+      },
+      "grief": {
+        "label": "Luto",
+        "terms": [
+          "luto",
+          "perda",
+          "pesar",
+          "chorar",
+          "saudade"
+        ]
+      },
+      "rest": {
+        "label": "Descanso",
+        "terms": [
+          "descanso",
+          "cansado",
+          "exausta",
+          "dormir",
+          "desacelerar"
+        ]
+      },
+      "identity": {
+        "label": "Identidade",
+        "terms": [
+          "identidade",
+          "quem sou",
+          "eu mesmo",
+          "eu mesma",
+          "ser eu"
+        ]
+      },
+      "hope": {
+        "label": "Esperança",
+        "terms": [
+          "esperança",
+          "esperar",
+          "futuro",
+          "possibilidade",
+          "dias melhores"
+        ]
+      },
+      "belonging": {
+        "label": "Pertencimento",
+        "terms": [
+          "pertencer",
+          "lar",
+          "aceito",
+          "comunidade",
+          "fazer parte"
+        ]
+      },
+      "love": {
+        "label": "Amor",
+        "terms": [
+          "amor",
+          "amar",
+          "afeto",
+          "pessoa amada"
+        ]
+      },
+      "time": {
+        "label": "Tempo",
+        "terms": [
+          "tempo",
+          "anos",
+          "passado",
+          "envelhecer"
+        ]
+      },
+      "mortality": {
+        "label": "Mortalidade",
+        "terms": [
+          "mortalidade",
+          "morte",
+          "mortal",
+          "impermanência"
+        ]
+      },
+      "freedom": {
+        "label": "Liberdade",
+        "terms": [
+          "liberdade",
+          "livre",
+          "libertação",
+          "independência"
+        ]
+      },
+      "meaning": {
+        "label": "Sentido",
+        "terms": [
+          "sentido",
+          "propósito",
+          "significado",
+          "razão de viver"
+        ]
+      },
+      "self-worth": {
+        "label": "Valor próprio",
+        "terms": [
+          "valor próprio",
+          "digno",
+          "ser suficiente",
+          "autoestima"
+        ]
+      },
+      "nature": {
+        "label": "Natureza",
+        "terms": [
+          "natureza",
+          "floresta",
+          "mar",
+          "céu"
+        ]
+      },
+      "joy": {
+        "label": "Alegria",
+        "terms": [
+          "alegria",
+          "feliz",
+          "deleite",
+          "riso"
+        ]
+      }
+    },
+    "ru": {
+      "uncertainty": {
+        "label": "Неопределённость",
+        "terms": [
+          "не уверен",
+          "не знаю",
+          "сомнение",
+          "растерянность",
+          "неопределённость"
+        ]
+      },
+      "change": {
+        "label": "Перемены",
+        "terms": [
+          "перемены",
+          "измениться",
+          "переход",
+          "новое начало",
+          "двигаться дальше"
+        ]
+      },
+      "loneliness": {
+        "label": "Одиночество",
+        "terms": [
+          "одинок",
+          "одна",
+          "одиночество",
+          "изоляция",
+          "никого"
+        ]
+      },
+      "boundaries": {
+        "label": "Границы",
+        "terms": [
+          "границы",
+          "предел",
+          "сказать нет",
+          "отказать",
+          "защитить себя"
+        ]
+      },
+      "courage": {
+        "label": "Мужество",
+        "terms": [
+          "мужество",
+          "смелость",
+          "страх",
+          "решиться",
+          "бояться"
+        ]
+      },
+      "grief": {
+        "label": "Горе",
+        "terms": [
+          "горе",
+          "утрата",
+          "скорбь",
+          "оплакивать",
+          "скучать"
+        ]
+      },
+      "rest": {
+        "label": "Отдых",
+        "terms": [
+          "отдых",
+          "устал",
+          "измучена",
+          "сон",
+          "замедлиться"
+        ]
+      },
+      "identity": {
+        "label": "Личность",
+        "terms": [
+          "личность",
+          "кто я",
+          "сам собой",
+          "самость",
+          "быть собой"
+        ]
+      },
+      "hope": {
+        "label": "Надежда",
+        "terms": [
+          "надежда",
+          "надеяться",
+          "будущее",
+          "возможность",
+          "лучшие дни"
+        ]
+      },
+      "belonging": {
+        "label": "Принадлежность",
+        "terms": [
+          "принадлежать",
+          "дом",
+          "принят",
+          "сообщество",
+          "своё место"
+        ]
+      },
+      "love": {
+        "label": "Любовь",
+        "terms": [
+          "любовь",
+          "любить",
+          "нежность",
+          "любимый"
+        ]
+      },
+      "time": {
+        "label": "Время",
+        "terms": [
+          "время",
+          "годы",
+          "прошлое",
+          "стареть"
+        ]
+      },
+      "mortality": {
+        "label": "Смертность",
+        "terms": [
+          "смертность",
+          "смерть",
+          "смертный",
+          "бренность"
+        ]
+      },
+      "freedom": {
+        "label": "Свобода",
+        "terms": [
+          "свобода",
+          "свободный",
+          "освобождение",
+          "независимость"
+        ]
+      },
+      "meaning": {
+        "label": "Смысл",
+        "terms": [
+          "смысл",
+          "цель",
+          "значение",
+          "смысл жизни"
+        ]
+      },
+      "self-worth": {
+        "label": "Самоценность",
+        "terms": [
+          "самоценность",
+          "достоин",
+          "достаточно хорош",
+          "самоуважение"
+        ]
+      },
+      "nature": {
+        "label": "Природа",
+        "terms": [
+          "природа",
+          "лес",
+          "море",
+          "небо"
+        ]
+      },
+      "joy": {
+        "label": "Радость",
+        "terms": [
+          "радость",
+          "счастье",
+          "восторг",
+          "смех"
+        ]
+      }
+    },
+    "sv": {
+      "uncertainty": {
+        "label": "Osäkerhet",
+        "terms": [
+          "osäker",
+          "jag vet inte",
+          "tvivel",
+          "förvirrad",
+          "tveka"
+        ]
+      },
+      "change": {
+        "label": "Förändring",
+        "terms": [
+          "förändring",
+          "förändras",
+          "övergång",
+          "ny början",
+          "gå vidare"
+        ]
+      },
+      "loneliness": {
+        "label": "Ensamhet",
+        "terms": [
+          "ensam",
+          "ensamhet",
+          "isolerad",
+          "ingen",
+          "utanför"
+        ]
+      },
+      "boundaries": {
+        "label": "Gränser",
+        "terms": [
+          "gränser",
+          "gräns",
+          "säga nej",
+          "avvisa",
+          "skydda mig"
+        ]
+      },
+      "courage": {
+        "label": "Mod",
+        "terms": [
+          "mod",
+          "modig",
+          "rädd",
+          "fruktan",
+          "våga"
+        ]
+      },
+      "grief": {
+        "label": "Sorg",
+        "terms": [
+          "sorg",
+          "förlust",
+          "sörja",
+          "sakna",
+          "efterlevande"
+        ]
+      },
+      "rest": {
+        "label": "Vila",
+        "terms": [
+          "vila",
+          "trött",
+          "utmattad",
+          "sova",
+          "sakta ner"
+        ]
+      },
+      "identity": {
+        "label": "Identitet",
+        "terms": [
+          "identitet",
+          "vem är jag",
+          "mig själv",
+          "själv",
+          "vara mig"
+        ]
+      },
+      "hope": {
+        "label": "Hopp",
+        "terms": [
+          "hopp",
+          "hoppas",
+          "framtid",
+          "möjlighet",
+          "bättre dagar"
+        ]
+      },
+      "belonging": {
+        "label": "Tillhörighet",
+        "terms": [
+          "tillhöra",
+          "hem",
+          "accepterad",
+          "gemenskap",
+          "passa in"
+        ]
+      },
+      "love": {
+        "label": "Kärlek",
+        "terms": [
+          "kärlek",
+          "älska",
+          "tillgivenhet",
+          "älskad"
+        ]
+      },
+      "time": {
+        "label": "Tid",
+        "terms": [
+          "tid",
+          "år",
+          "det förflutna",
+          "åldras"
+        ]
+      },
+      "mortality": {
+        "label": "Dödlighet",
+        "terms": [
+          "dödlighet",
+          "död",
+          "dödlig",
+          "förgänglighet"
+        ]
+      },
+      "freedom": {
+        "label": "Frihet",
+        "terms": [
+          "frihet",
+          "fri",
+          "befrielse",
+          "oberoende"
+        ]
+      },
+      "meaning": {
+        "label": "Mening",
+        "terms": [
+          "mening",
+          "syfte",
+          "betydelse",
+          "livsmening"
+        ]
+      },
+      "self-worth": {
+        "label": "Egenvärde",
+        "terms": [
+          "egenvärde",
+          "värdig",
+          "bra nog",
+          "självkänsla"
+        ]
+      },
+      "nature": {
+        "label": "Natur",
+        "terms": [
+          "natur",
+          "skog",
+          "hav",
+          "himmel"
+        ]
+      },
+      "joy": {
+        "label": "Glädje",
+        "terms": [
+          "glädje",
+          "lycklig",
+          "förtjusning",
+          "skratt"
+        ]
+      }
+    },
+    "ar": {
+      "uncertainty": {
+        "label": "عدم اليقين",
+        "terms": [
+          "غير متأكد",
+          "لا أعرف",
+          "شك",
+          "حيرة",
+          "تردد"
+        ]
+      },
+      "change": {
+        "label": "التغيير",
+        "terms": [
+          "تغيير",
+          "يتغير",
+          "تحول",
+          "بداية جديدة",
+          "المضي قدماً"
+        ]
+      },
+      "loneliness": {
+        "label": "الوحدة",
+        "terms": [
+          "وحيد",
+          "وحدة",
+          "معزول",
+          "لا أحد",
+          "اغتراب"
+        ]
+      },
+      "boundaries": {
+        "label": "الحدود",
+        "terms": [
+          "حدود",
+          "حد",
+          "قول لا",
+          "رفض",
+          "أحمي نفسي"
+        ]
+      },
+      "courage": {
+        "label": "الشجاعة",
+        "terms": [
+          "شجاعة",
+          "شجاع",
+          "خوف",
+          "أجرؤ",
+          "مواجهة"
+        ]
+      },
+      "grief": {
+        "label": "الحزن",
+        "terms": [
+          "حزن",
+          "فقدان",
+          "حداد",
+          "أفتقد",
+          "فقدت شخصاً"
+        ]
+      },
+      "rest": {
+        "label": "الراحة",
+        "terms": [
+          "راحة",
+          "متعب",
+          "مرهق",
+          "نوم",
+          "أتمهل"
+        ]
+      },
+      "identity": {
+        "label": "الهوية",
+        "terms": [
+          "هوية",
+          "من أنا",
+          "نفسي",
+          "ذاتي",
+          "أكون نفسي"
+        ]
+      },
+      "hope": {
+        "label": "الأمل",
+        "terms": [
+          "أمل",
+          "آمل",
+          "مستقبل",
+          "إمكان",
+          "أيام أفضل"
+        ]
+      },
+      "belonging": {
+        "label": "الانتماء",
+        "terms": [
+          "انتماء",
+          "أنتمي",
+          "وطن",
+          "مقبول",
+          "مجتمع"
+        ]
+      },
+      "love": {
+        "label": "الحب",
+        "terms": [
+          "الحب",
+          "أحب",
+          "مودة",
+          "محبوب"
+        ]
+      },
+      "time": {
+        "label": "الزمن",
+        "terms": [
+          "الزمن",
+          "الوقت",
+          "السنوات",
+          "الماضي"
+        ]
+      },
+      "mortality": {
+        "label": "الفناء",
+        "terms": [
+          "الموت",
+          "فان",
+          "زوال",
+          "قصر الحياة"
+        ]
+      },
+      "freedom": {
+        "label": "الحرية",
+        "terms": [
+          "الحرية",
+          "حر",
+          "تحرر",
+          "استقلال"
+        ]
+      },
+      "meaning": {
+        "label": "المعنى",
+        "terms": [
+          "المعنى",
+          "الغاية",
+          "المغزى",
+          "معنى الحياة"
+        ]
+      },
+      "self-worth": {
+        "label": "تقدير الذات",
+        "terms": [
+          "قيمة الذات",
+          "جدير",
+          "كاف كما أنا",
+          "احترام الذات"
+        ]
+      },
+      "nature": {
+        "label": "الطبيعة",
+        "terms": [
+          "الطبيعة",
+          "غابة",
+          "بحر",
+          "سماء"
+        ]
+      },
+      "joy": {
+        "label": "الفرح",
+        "terms": [
+          "فرح",
+          "سعيد",
+          "بهجة",
+          "ضحك"
+        ]
+      }
+    },
+    "hi": {
+      "uncertainty": {
+        "label": "अनिश्चितता",
+        "terms": [
+          "अनिश्चित",
+          "मुझे नहीं पता",
+          "संदेह",
+          "उलझन",
+          "दुविधा"
+        ]
+      },
+      "change": {
+        "label": "बदलाव",
+        "terms": [
+          "बदलाव",
+          "बदलना",
+          "परिवर्तन",
+          "नई शुरुआत",
+          "आगे बढ़ना"
+        ]
+      },
+      "loneliness": {
+        "label": "अकेलापन",
+        "terms": [
+          "अकेला",
+          "अकेली",
+          "अकेलापन",
+          "अलग-थलग",
+          "कोई नहीं"
+        ]
+      },
+      "boundaries": {
+        "label": "सीमाएँ",
+        "terms": [
+          "सीमा",
+          "सीमाएँ",
+          "ना कहना",
+          "मना करना",
+          "खुद को बचाना"
+        ]
+      },
+      "courage": {
+        "label": "साहस",
+        "terms": [
+          "साहस",
+          "बहादुर",
+          "डर",
+          "हिम्मत",
+          "सामना करना"
+        ]
+      },
+      "grief": {
+        "label": "शोक",
+        "terms": [
+          "शोक",
+          "हानि",
+          "दुःख",
+          "मातम",
+          "याद आना"
+        ]
+      },
+      "rest": {
+        "label": "आराम",
+        "terms": [
+          "आराम",
+          "थका",
+          "थकी",
+          "नींद",
+          "धीमा होना"
+        ]
+      },
+      "identity": {
+        "label": "पहचान",
+        "terms": [
+          "पहचान",
+          "मैं कौन हूँ",
+          "मैं स्वयं",
+          "स्व",
+          "खुद होना"
+        ]
+      },
+      "hope": {
+        "label": "आशा",
+        "terms": [
+          "आशा",
+          "उम्मीद",
+          "भविष्य",
+          "संभावना",
+          "अच्छे दिन"
+        ]
+      },
+      "belonging": {
+        "label": "अपनापन",
+        "terms": [
+          "अपनापन",
+          "संबंधित होना",
+          "घर",
+          "स्वीकार किया जाना",
+          "समुदाय"
+        ]
+      },
+      "love": {
+        "label": "प्रेम",
+        "terms": [
+          "प्रेम",
+          "प्यार",
+          "स्नेह",
+          "प्रिय"
+        ]
+      },
+      "time": {
+        "label": "समय",
+        "terms": [
+          "समय",
+          "वर्ष",
+          "बीता कल",
+          "उम्र बढ़ना"
+        ]
+      },
+      "mortality": {
+        "label": "नश्वरता",
+        "terms": [
+          "मृत्यु",
+          "नश्वर",
+          "अनित्यता",
+          "सीमित जीवन"
+        ]
+      },
+      "freedom": {
+        "label": "स्वतंत्रता",
+        "terms": [
+          "स्वतंत्रता",
+          "मुक्त",
+          "मुक्ति",
+          "आज़ादी"
+        ]
+      },
+      "meaning": {
+        "label": "अर्थ",
+        "terms": [
+          "अर्थ",
+          "उद्देश्य",
+          "सार्थकता",
+          "जीवन का अर्थ"
+        ]
+      },
+      "self-worth": {
+        "label": "आत्म-मूल्य",
+        "terms": [
+          "आत्म-मूल्य",
+          "योग्य",
+          "मैं पर्याप्त हूँ",
+          "आत्मसम्मान"
+        ]
+      },
+      "nature": {
+        "label": "प्रकृति",
+        "terms": [
+          "प्रकृति",
+          "जंगल",
+          "समुद्र",
+          "आकाश"
+        ]
+      },
+      "joy": {
+        "label": "आनंद",
+        "terms": [
+          "आनंद",
+          "खुशी",
+          "प्रसन्नता",
+          "हँसी"
+        ]
+      }
+    },
+    "bn": {
+      "uncertainty": {
+        "label": "অনিশ্চয়তা",
+        "terms": [
+          "অনিশ্চিত",
+          "জানি না",
+          "সন্দেহ",
+          "দ্বিধা",
+          "বিভ্রান্ত"
+        ]
+      },
+      "change": {
+        "label": "পরিবর্তন",
+        "terms": [
+          "পরিবর্তন",
+          "বদলানো",
+          "রূপান্তর",
+          "নতুন শুরু",
+          "এগিয়ে যাওয়া"
+        ]
+      },
+      "loneliness": {
+        "label": "একাকীত্ব",
+        "terms": [
+          "একা",
+          "একাকী",
+          "একাকীত্ব",
+          "বিচ্ছিন্ন",
+          "কেউ নেই"
+        ]
+      },
+      "boundaries": {
+        "label": "সীমানা",
+        "terms": [
+          "সীমানা",
+          "সীমা",
+          "না বলা",
+          "প্রত্যাখ্যান",
+          "নিজেকে রক্ষা"
+        ]
+      },
+      "courage": {
+        "label": "সাহস",
+        "terms": [
+          "সাহস",
+          "সাহসী",
+          "ভয়",
+          "ঝুঁকি নেওয়া",
+          "মোকাবিলা"
+        ]
+      },
+      "grief": {
+        "label": "শোক",
+        "terms": [
+          "শোক",
+          "হারানো",
+          "দুঃখ",
+          "মাতম",
+          "মনে পড়া"
+        ]
+      },
+      "rest": {
+        "label": "বিশ্রাম",
+        "terms": [
+          "বিশ্রাম",
+          "ক্লান্ত",
+          "অবসন্ন",
+          "ঘুম",
+          "ধীরে চলা"
+        ]
+      },
+      "identity": {
+        "label": "পরিচয়",
+        "terms": [
+          "পরিচয়",
+          "আমি কে",
+          "নিজেকে",
+          "সত্তা",
+          "নিজের মতো"
+        ]
+      },
+      "hope": {
+        "label": "আশা",
+        "terms": [
+          "আশা",
+          "ভরসা",
+          "ভবিষ্যৎ",
+          "সম্ভাবনা",
+          "ভালো দিন"
+        ]
+      },
+      "belonging": {
+        "label": "অন্তর্ভুক্তি",
+        "terms": [
+          "অন্তর্ভুক্ত",
+          "আপন",
+          "বাড়ি",
+          "গ্রহণ করা",
+          "সম্প্রদায়"
+        ]
+      },
+      "love": {
+        "label": "ভালোবাসা",
+        "terms": [
+          "ভালোবাসা",
+          "প্রেম",
+          "স্নেহ",
+          "প্রিয়"
+        ]
+      },
+      "time": {
+        "label": "সময়",
+        "terms": [
+          "সময়",
+          "বছর",
+          "অতীত",
+          "বয়স বাড়া"
+        ]
+      },
+      "mortality": {
+        "label": "নশ্বরতা",
+        "terms": [
+          "মৃত্যু",
+          "নশ্বর",
+          "অনিত্যতা",
+          "সীমিত জীবন"
+        ]
+      },
+      "freedom": {
+        "label": "স্বাধীনতা",
+        "terms": [
+          "স্বাধীনতা",
+          "মুক্ত",
+          "মুক্তি",
+          "স্বনির্ভরতা"
+        ]
+      },
+      "meaning": {
+        "label": "অর্থ",
+        "terms": [
+          "অর্থ",
+          "উদ্দেশ্য",
+          "তাৎপর্য",
+          "জীবনের অর্থ"
+        ]
+      },
+      "self-worth": {
+        "label": "আত্মমূল্য",
+        "terms": [
+          "আত্মমূল্য",
+          "যোগ্য",
+          "আমি যথেষ্ট",
+          "আত্মসম্মান"
+        ]
+      },
+      "nature": {
+        "label": "প্রকৃতি",
+        "terms": [
+          "প্রকৃতি",
+          "বন",
+          "সমুদ্র",
+          "আকাশ"
+        ]
+      },
+      "joy": {
+        "label": "আনন্দ",
+        "terms": [
+          "আনন্দ",
+          "খুশি",
+          "উল্লাস",
+          "হাসি"
+        ]
+      }
+    },
+    "id": {
+      "uncertainty": {
+        "label": "Ketidakpastian",
+        "terms": [
+          "tidak pasti",
+          "tidak tahu",
+          "ragu",
+          "bingung",
+          "bimbang"
+        ]
+      },
+      "change": {
+        "label": "Perubahan",
+        "terms": [
+          "perubahan",
+          "berubah",
+          "peralihan",
+          "awal baru",
+          "melangkah maju"
+        ]
+      },
+      "loneliness": {
+        "label": "Kesepian",
+        "terms": [
+          "kesepian",
+          "sendiri",
+          "terasing",
+          "tak seorang pun",
+          "terkucil"
+        ]
+      },
+      "boundaries": {
+        "label": "Batas",
+        "terms": [
+          "batas",
+          "batasan",
+          "berkata tidak",
+          "menolak",
+          "melindungi diri"
+        ]
+      },
+      "courage": {
+        "label": "Keberanian",
+        "terms": [
+          "keberanian",
+          "berani",
+          "takut",
+          "memberanikan diri",
+          "menghadapi"
+        ]
+      },
+      "grief": {
+        "label": "Duka",
+        "terms": [
+          "duka",
+          "kehilangan",
+          "berkabung",
+          "sedih",
+          "merindukan"
+        ]
+      },
+      "rest": {
+        "label": "Istirahat",
+        "terms": [
+          "istirahat",
+          "lelah",
+          "letih",
+          "tidur",
+          "memperlambat"
+        ]
+      },
+      "identity": {
+        "label": "Identitas",
+        "terms": [
+          "identitas",
+          "siapa saya",
+          "diri sendiri",
+          "jati diri",
+          "menjadi diri"
+        ]
+      },
+      "hope": {
+        "label": "Harapan",
+        "terms": [
+          "harapan",
+          "berharap",
+          "masa depan",
+          "kemungkinan",
+          "hari lebih baik"
+        ]
+      },
+      "belonging": {
+        "label": "Rasa memiliki",
+        "terms": [
+          "memiliki",
+          "rumah",
+          "diterima",
+          "komunitas",
+          "menjadi bagian"
+        ]
+      },
+      "love": {
+        "label": "Cinta",
+        "terms": [
+          "cinta",
+          "mencintai",
+          "kasih sayang",
+          "terkasih"
+        ]
+      },
+      "time": {
+        "label": "Waktu",
+        "terms": [
+          "waktu",
+          "tahun",
+          "masa lalu",
+          "menua"
+        ]
+      },
+      "mortality": {
+        "label": "Kefanaan",
+        "terms": [
+          "kematian",
+          "fana",
+          "ketidakkekalan",
+          "hidup terbatas"
+        ]
+      },
+      "freedom": {
+        "label": "Kebebasan",
+        "terms": [
+          "kebebasan",
+          "bebas",
+          "pembebasan",
+          "kemerdekaan"
+        ]
+      },
+      "meaning": {
+        "label": "Makna",
+        "terms": [
+          "makna",
+          "tujuan",
+          "arti",
+          "makna hidup"
+        ]
+      },
+      "self-worth": {
+        "label": "Harga diri",
+        "terms": [
+          "nilai diri",
+          "layak",
+          "cukup baik",
+          "harga diri"
+        ]
+      },
+      "nature": {
+        "label": "Alam",
+        "terms": [
+          "alam",
+          "hutan",
+          "laut",
+          "langit"
+        ]
+      },
+      "joy": {
+        "label": "Sukacita",
+        "terms": [
+          "sukacita",
+          "bahagia",
+          "kegembiraan",
+          "tawa"
+        ]
+      }
+    },
+    "tr": {
+      "uncertainty": {
+        "label": "Belirsizlik",
+        "terms": [
+          "belirsiz",
+          "bilmiyorum",
+          "şüphe",
+          "kafam karışık",
+          "kararsız"
+        ]
+      },
+      "change": {
+        "label": "Değişim",
+        "terms": [
+          "değişim",
+          "değişmek",
+          "geçiş",
+          "yeni başlangıç",
+          "devam etmek"
+        ]
+      },
+      "loneliness": {
+        "label": "Yalnızlık",
+        "terms": [
+          "yalnız",
+          "yalnızlık",
+          "izole",
+          "kimse yok",
+          "yabancılaşma"
+        ]
+      },
+      "boundaries": {
+        "label": "Sınırlar",
+        "terms": [
+          "sınır",
+          "sınırlar",
+          "hayır demek",
+          "reddetmek",
+          "kendimi korumak"
+        ]
+      },
+      "courage": {
+        "label": "Cesaret",
+        "terms": [
+          "cesaret",
+          "cesur",
+          "korku",
+          "göze almak",
+          "yüzleşmek"
+        ]
+      },
+      "grief": {
+        "label": "Yas",
+        "terms": [
+          "yas",
+          "kayıp",
+          "üzüntü",
+          "ağlamak",
+          "özlemek"
+        ]
+      },
+      "rest": {
+        "label": "Dinlenme",
+        "terms": [
+          "dinlenmek",
+          "yorgun",
+          "tükenmiş",
+          "uyumak",
+          "yavaşlamak"
+        ]
+      },
+      "identity": {
+        "label": "Kimlik",
+        "terms": [
+          "kimlik",
+          "ben kimim",
+          "kendim",
+          "benlik",
+          "kendim olmak"
+        ]
+      },
+      "hope": {
+        "label": "Umut",
+        "terms": [
+          "umut",
+          "umut etmek",
+          "gelecek",
+          "olasılık",
+          "daha iyi günler"
+        ]
+      },
+      "belonging": {
+        "label": "Aidiyet",
+        "terms": [
+          "ait olmak",
+          "ev",
+          "kabul edilmek",
+          "topluluk",
+          "uyum sağlamak"
+        ]
+      },
+      "love": {
+        "label": "Sevgi",
+        "terms": [
+          "sevgi",
+          "aşk",
+          "sevmek",
+          "sevgili"
+        ]
+      },
+      "time": {
+        "label": "Zaman",
+        "terms": [
+          "zaman",
+          "yıllar",
+          "geçmiş",
+          "yaşlanmak"
+        ]
+      },
+      "mortality": {
+        "label": "Ölümlülük",
+        "terms": [
+          "ölüm",
+          "ölümlü",
+          "geçicilik",
+          "sınırlı yaşam"
+        ]
+      },
+      "freedom": {
+        "label": "Özgürlük",
+        "terms": [
+          "özgürlük",
+          "özgür",
+          "kurtuluş",
+          "bağımsızlık"
+        ]
+      },
+      "meaning": {
+        "label": "Anlam",
+        "terms": [
+          "anlam",
+          "amaç",
+          "önem",
+          "hayatın anlamı"
+        ]
+      },
+      "self-worth": {
+        "label": "Özdeğer",
+        "terms": [
+          "özdeğer",
+          "değerli",
+          "yeterince iyi",
+          "özsaygı"
+        ]
+      },
+      "nature": {
+        "label": "Doğa",
+        "terms": [
+          "doğa",
+          "orman",
+          "deniz",
+          "gökyüzü"
+        ]
+      },
+      "joy": {
+        "label": "Sevinç",
+        "terms": [
+          "sevinç",
+          "mutlu",
+          "neşe",
+          "kahkaha"
+        ]
+      }
+    },
+    "vi": {
+      "uncertainty": {
+        "label": "Bất định",
+        "terms": [
+          "không chắc",
+          "không biết",
+          "nghi ngờ",
+          "bối rối",
+          "do dự"
+        ]
+      },
+      "change": {
+        "label": "Thay đổi",
+        "terms": [
+          "thay đổi",
+          "chuyển biến",
+          "bước ngoặt",
+          "khởi đầu mới",
+          "tiến lên"
+        ]
+      },
+      "loneliness": {
+        "label": "Cô đơn",
+        "terms": [
+          "cô đơn",
+          "một mình",
+          "cô lập",
+          "không có ai",
+          "lạc lõng"
+        ]
+      },
+      "boundaries": {
+        "label": "Ranh giới",
+        "terms": [
+          "ranh giới",
+          "giới hạn",
+          "nói không",
+          "từ chối",
+          "bảo vệ mình"
+        ]
+      },
+      "courage": {
+        "label": "Can đảm",
+        "terms": [
+          "can đảm",
+          "dũng cảm",
+          "sợ hãi",
+          "dám",
+          "đối mặt"
+        ]
+      },
+      "grief": {
+        "label": "Đau buồn",
+        "terms": [
+          "đau buồn",
+          "mất mát",
+          "tang tóc",
+          "thương tiếc",
+          "nhớ người đã mất"
+        ]
+      },
+      "rest": {
+        "label": "Nghỉ ngơi",
+        "terms": [
+          "nghỉ ngơi",
+          "mệt mỏi",
+          "kiệt sức",
+          "ngủ",
+          "chậm lại"
+        ]
+      },
+      "identity": {
+        "label": "Bản sắc",
+        "terms": [
+          "bản sắc",
+          "tôi là ai",
+          "chính mình",
+          "cái tôi",
+          "sống thật"
+        ]
+      },
+      "hope": {
+        "label": "Hy vọng",
+        "terms": [
+          "hy vọng",
+          "mong đợi",
+          "tương lai",
+          "khả năng",
+          "ngày tốt đẹp"
+        ]
+      },
+      "belonging": {
+        "label": "Thuộc về",
+        "terms": [
+          "thuộc về",
+          "mái nhà",
+          "được chấp nhận",
+          "cộng đồng",
+          "hòa nhập"
+        ]
+      },
+      "love": {
+        "label": "Tình yêu",
+        "terms": [
+          "tình yêu",
+          "yêu",
+          "thương mến",
+          "người thương"
+        ]
+      },
+      "time": {
+        "label": "Thời gian",
+        "terms": [
+          "thời gian",
+          "năm tháng",
+          "quá khứ",
+          "già đi"
+        ]
+      },
+      "mortality": {
+        "label": "Kiếp hữu hạn",
+        "terms": [
+          "cái chết",
+          "hữu hạn",
+          "vô thường",
+          "đời ngắn ngủi"
+        ]
+      },
+      "freedom": {
+        "label": "Tự do",
+        "terms": [
+          "tự do",
+          "giải thoát",
+          "độc lập",
+          "không ràng buộc"
+        ]
+      },
+      "meaning": {
+        "label": "Ý nghĩa",
+        "terms": [
+          "ý nghĩa",
+          "mục đích",
+          "lẽ sống",
+          "ý nghĩa cuộc đời"
+        ]
+      },
+      "self-worth": {
+        "label": "Giá trị bản thân",
+        "terms": [
+          "giá trị bản thân",
+          "xứng đáng",
+          "đủ tốt",
+          "lòng tự trọng"
+        ]
+      },
+      "nature": {
+        "label": "Thiên nhiên",
+        "terms": [
+          "thiên nhiên",
+          "rừng",
+          "biển",
+          "bầu trời"
+        ]
+      },
+      "joy": {
+        "label": "Niềm vui",
+        "terms": [
+          "niềm vui",
+          "hạnh phúc",
+          "vui sướng",
+          "tiếng cười"
+        ]
+      }
+    },
+    "th": {
+      "uncertainty": {
+        "label": "ความไม่แน่นอน",
+        "terms": [
+          "ไม่แน่ใจ",
+          "ไม่รู้",
+          "สงสัย",
+          "สับสน",
+          "ลังเล"
+        ]
+      },
+      "change": {
+        "label": "การเปลี่ยนแปลง",
+        "terms": [
+          "เปลี่ยนแปลง",
+          "เปลี่ยน",
+          "ช่วงเปลี่ยนผ่าน",
+          "เริ่มต้นใหม่",
+          "ก้าวต่อไป"
+        ]
+      },
+      "loneliness": {
+        "label": "ความเหงา",
+        "terms": [
+          "เหงา",
+          "โดดเดี่ยว",
+          "อยู่คนเดียว",
+          "ไม่มีใคร",
+          "แปลกแยก"
+        ]
+      },
+      "boundaries": {
+        "label": "ขอบเขต",
+        "terms": [
+          "ขอบเขต",
+          "ขีดจำกัด",
+          "ปฏิเสธ",
+          "พูดว่าไม่",
+          "ปกป้องตัวเอง"
+        ]
+      },
+      "courage": {
+        "label": "ความกล้า",
+        "terms": [
+          "กล้า",
+          "กล้าหาญ",
+          "กลัว",
+          "ความกลัว",
+          "เผชิญหน้า"
+        ]
+      },
+      "grief": {
+        "label": "ความโศกเศร้า",
+        "terms": [
+          "โศกเศร้า",
+          "สูญเสีย",
+          "ไว้ทุกข์",
+          "อาลัย",
+          "คิดถึงผู้จากไป"
+        ]
+      },
+      "rest": {
+        "label": "การพักผ่อน",
+        "terms": [
+          "พักผ่อน",
+          "เหนื่อย",
+          "หมดแรง",
+          "นอน",
+          "ช้าลง"
+        ]
+      },
+      "identity": {
+        "label": "อัตลักษณ์",
+        "terms": [
+          "อัตลักษณ์",
+          "ฉันคือใคร",
+          "ตัวเอง",
+          "ความเป็นตัวตน",
+          "เป็นตัวเอง"
+        ]
+      },
+      "hope": {
+        "label": "ความหวัง",
+        "terms": [
+          "หวัง",
+          "ความหวัง",
+          "อนาคต",
+          "ความเป็นไปได้",
+          "วันที่ดีขึ้น"
+        ]
+      },
+      "belonging": {
+        "label": "ความรู้สึกเป็นส่วนหนึ่ง",
+        "terms": [
+          "เป็นส่วนหนึ่ง",
+          "บ้าน",
+          "ได้รับการยอมรับ",
+          "ชุมชน",
+          "เข้ากันได้"
+        ]
+      },
+      "love": {
+        "label": "ความรัก",
+        "terms": [
+          "ความรัก",
+          "รัก",
+          "ความผูกพัน",
+          "คนรัก"
+        ]
+      },
+      "time": {
+        "label": "เวลา",
+        "terms": [
+          "เวลา",
+          "หลายปี",
+          "อดีต",
+          "แก่ลง"
+        ]
+      },
+      "mortality": {
+        "label": "ความเป็นอนิจจัง",
+        "terms": [
+          "ความตาย",
+          "มนุษย์ผู้ต้องตาย",
+          "ความไม่เที่ยง",
+          "ชีวิตมีขอบเขต"
+        ]
+      },
+      "freedom": {
+        "label": "อิสรภาพ",
+        "terms": [
+          "อิสรภาพ",
+          "เป็นอิสระ",
+          "การปลดปล่อย",
+          "เสรีภาพ"
+        ]
+      },
+      "meaning": {
+        "label": "ความหมาย",
+        "terms": [
+          "ความหมาย",
+          "จุดมุ่งหมาย",
+          "ความสำคัญ",
+          "ความหมายของชีวิต"
+        ]
+      },
+      "self-worth": {
+        "label": "คุณค่าในตนเอง",
+        "terms": [
+          "คุณค่าในตนเอง",
+          "คู่ควร",
+          "ดีพอ",
+          "ความเคารพตนเอง"
+        ]
+      },
+      "nature": {
+        "label": "ธรรมชาติ",
+        "terms": [
+          "ธรรมชาติ",
+          "ป่า",
+          "ทะเล",
+          "ท้องฟ้า"
+        ]
+      },
+      "joy": {
+        "label": "ความยินดี",
+        "terms": [
+          "ความยินดี",
+          "มีความสุข",
+          "เบิกบาน",
+          "เสียงหัวเราะ"
+        ]
+      }
+    }
+  }
+}

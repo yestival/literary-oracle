@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#56635A">
+  <meta name="description" content="Literary Oracle">
+  <title>Literary Oracle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&amp;family=GFS+Didot&amp;family=Libre+Caslon+Text:wght@400;700&amp;family=Noto+Naskh+Arabic:wght@400;500&amp;family=Noto+Serif+Bengali:wght@400;500&amp;family=Noto+Serif+Devanagari:wght@400;500&amp;family=Noto+Serif+JP:wght@400;500&amp;family=Noto+Serif+KR:wght@400;500&amp;family=Noto+Serif+SC:wght@400;500&amp;family=Noto+Serif+TC:wght@400;500&amp;family=Noto+Serif+Thai:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260816-final-accessibility">
+</head>
+<body class="is-booting">
+  <header class="masthead">
+    <a class="wordmark" href="#" id="homeLink" aria-label="Literary Oracle home">Literary Oracle</a>
+    <div class="masthead-meta">
+      <span class="masthead-note">Public-domain literary archive</span>
+      <button id="savedPassagesButton" class="masthead-saved-link" type="button"
+        aria-controls="savedView" aria-label="Open saved passages, 0 saved">
+        <span id="savedPassagesLabel">Saved passages</span><span id="savedPassagesSeparator" aria-hidden="true"> · </span><span id="savedPassagesCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section id="homeView" class="view home-view" aria-labelledby="homeTitle">
+      <div class="home-copy">
+        <p class="catalog-label">Literary archive</p>
+        <h1 id="homeTitle">Literary<br>Oracle</h1>
+        <p class="home-intro">Let words find you across time.</p>
+        <p id="archiveScale" class="archive-scale">440 passages · 39 authors · 19 languages</p>
+      </div>
+
+      <form id="oracleForm" class="oracle-form" novalidate>
+        <label for="prompt">What has been on your mind?</label>
+        <textarea id="prompt" name="text" maxlength="4000" required
+          aria-describedby="languageStatus formError" placeholder="Write here…"></textarea>
+
+        <div class="language-control">
+          <label for="languageSelect">Show passage in:</label>
+          <select id="languageSelect" name="language"
+            aria-label="Show passage in"></select>
+          <output id="languageStatus" for="languageSelect" aria-live="polite"
+            aria-atomic="true">English</output>
+        </div>
+
+        <div class="chance-control">
+          <div class="chance-labels" aria-hidden="true">
+            <span>Closer to my words</span>
+            <span>Leave more to chance</span>
+          </div>
+          <input id="chance" name="chance" type="range" min="0" max="100" value="50"
+            aria-label="Balance semantic relevance and chance" aria-describedby="chanceReading">
+          <div class="chance-reading" id="chanceReading">
+            <output id="chanceValue" for="chance">50</output>
+            <span id="chanceDescription">Medium candidate pool</span>
+          </div>
+        </div>
+
+        <button id="drawButton" class="primary-button" type="submit">
+          <span>Draw from the archive</span>
+          <span aria-hidden="true">→</span>
+        </button>
+        <p id="formError" class="form-error" role="alert" aria-atomic="true"
+          tabindex="-1" hidden></p>
+      </form>
+    </section>
+
+    <section id="ritualView" class="view ritual-view" aria-labelledby="ritualTitle" aria-live="polite" hidden>
+      <div class="ritual-copy">
+        <h2 id="ritualTitle">Searching…</h2>
+        <p id="ritualStatus" role="status" aria-atomic="true">Opening drawer…</p>
+      </div>
+
+      <div class="archive-scene" aria-hidden="true">
+        <div class="drawer-cabinet">
+          <div class="drawer-interior"></div>
+          <div class="ritual-card">
+            <span>Literary archive</span>
+            <i></i><i></i><i></i><i></i>
+          </div>
+          <div class="drawer-front">
+            <div class="drawer-label">
+              <span>Archive</span>
+              <small>Passages</small>
+            </div>
+            <div class="drawer-handle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultView" class="view result-view" aria-labelledby="resultTitle" aria-live="polite" hidden>
+      <div class="result-heading">
+        <h2 id="resultTitle" tabindex="-1">Result</h2>
+        <button id="returnHomeButton" class="text-button" type="button">Back</button>
+      </div>
+
+      <div class="card-perspective">
+        <article id="archiveCard" class="archive-card" role="button" tabindex="0"
+          aria-label="Passage side shown; open archive details" aria-expanded="false"
+          aria-controls="cardFront cardBack">
+          <div id="cardInner" class="card-inner">
+            <section id="cardFront" class="card-face card-front" aria-label="Passage side">
+              <header class="card-metadata">
+                <span id="typeStamp" class="type-stamp"></span>
+              </header>
+              <div class="passage-block display-passage-block">
+                <p id="displayLanguageLabel" class="language-label"></p>
+                <blockquote id="displayText" class="passage" dir="auto"></blockquote>
+              </div>
+              <div class="passage-credit">
+                <p id="frontAuthor" dir="auto"></p>
+                <cite id="frontWork" lang="en" dir="ltr"></cite>
+              </div>
+            </section>
+
+            <section id="cardBack" class="card-face card-back" aria-label="Details side"
+              aria-hidden="true" inert>
+              <section class="record-section original-section" aria-labelledby="originalHeading">
+                <h4 id="originalHeading">Original</h4>
+                <blockquote id="originalText" class="original-passage" dir="auto"></blockquote>
+                <dl class="original-metadata">
+                  <div><dt>Language</dt><dd id="originalLanguageLabel"></dd></div>
+                  <div><dt>Work</dt><dd><cite id="originalWorkTitle" dir="auto"></cite></dd></div>
+                  <div><dt>Author</dt><dd id="originalAuthor" dir="auto"></dd></div>
+                  <div><dt>Year</dt><dd id="originalYear"></dd></div>
+                  <div><dt>Type</dt><dd id="originalType"></dd></div>
+                </dl>
+              </section>
+
+              <section class="record-section" aria-labelledby="sourceHeading">
+                <h4 id="sourceHeading">Source</h4>
+                <div id="source"></div>
+              </section>
+
+              <section class="record-section" aria-labelledby="contextHeading">
+                <h4 id="contextHeading">About this passage</h4>
+                <p id="contextNote"></p>
+              </section>
+
+              <section class="record-section" aria-labelledby="authorHeading">
+                <h4 id="authorHeading">About the author</h4>
+                <p id="authorBio"></p>
+              </section>
+
+              <footer class="record-secondary-metadata">
+                <p class="secondary-metadata-item">
+                  <span>Copyright status</span>
+                  <span id="publicDomainStatus"></span>
+                </p>
+                <p class="secondary-metadata-item">
+                  <span>Translation note</span>
+                  <span id="translationNote"></span>
+                </p>
+              </footer>
+            </section>
+          </div>
+        </article>
+      </div>
+
+      <p id="cardStatus" class="visually-hidden" role="status" aria-live="polite"
+        aria-atomic="true"></p>
+
+      <div id="drawExplanation" class="draw-explanation" aria-label="Passage details">
+        <p><span id="resultOriginalLanguageLabel">Original language</span><strong id="resultOriginalLanguage"></strong></p>
+        <p><span id="chanceLevelLabel">Chance level</span><strong id="chanceLevel"></strong></p>
+        <p><span id="archiveOpenedToLabel">Archive opened to</span><strong id="candidatePoolSize"></strong></p>
+      </div>
+
+      <div class="result-actions">
+        <button id="savePassageButton" class="secondary-button save-passage-button" type="button"
+          aria-pressed="false">Save passage</button>
+        <button id="shareCardButton" class="secondary-button share-card-button" type="button">Share card</button>
+        <button id="flipButton" class="secondary-button" type="button"
+          aria-controls="archiveCard" aria-expanded="false"
+          aria-label="Passage side shown; open archive details">Details</button>
+        <button id="drawAgainButton" class="primary-button compact" type="button">Draw again</button>
+      </div>
+      <p id="saveStorageError" class="storage-error result-storage-error" role="status"
+        aria-live="polite" hidden></p>
+    </section>
+
+    <section id="savedView" class="view saved-view" aria-labelledby="savedTitle" hidden>
+      <header class="saved-heading">
+        <h2 id="savedTitle" tabindex="-1">Saved passages</h2>
+        <output id="savedViewCount" aria-live="polite" aria-label="0 saved records">0 records</output>
+      </header>
+
+      <p id="savedStorageError" class="storage-error saved-storage-error" role="status"
+        aria-live="polite" hidden></p>
+
+      <div class="saved-album">
+        <div id="savedGrid" class="saved-grid" role="list" aria-label="Saved literary passages"></div>
+
+        <div id="savedEmptyState" class="saved-empty-state">
+          <p>No saved passages yet.</p>
+          <p>Save a passage when one finds you.</p>
+          <button id="savedBackButton" class="primary-button compact" type="button">Back to the Archive</button>
+        </div>
+      </div>
+
+      <p class="saved-browser-note">Saved only in this browser. Clearing browser data will remove these passages.</p>
+    </section>
+
+    <section id="shareView" class="view share-view" aria-labelledby="shareTitle" hidden>
+      <header class="share-heading">
+        <h2 id="shareTitle" tabindex="-1">Share card</h2>
+      </header>
+
+      <div class="share-preview-frame">
+        <p id="sharePreparingStatus" class="share-preparing-status" role="status"
+          aria-live="polite">Preparing card…</p>
+        <img id="sharePreviewImage" class="share-preview-image" alt="" hidden>
+      </div>
+
+      <p id="shareError" class="share-error" role="alert" aria-live="assertive" tabindex="-1" hidden></p>
+
+      <div class="share-actions">
+        <button id="nativeShareButton" class="primary-button compact" type="button" hidden>Share</button>
+        <button id="downloadShareButton" class="secondary-button" type="button" disabled>Download image</button>
+        <button id="shareBackButton" class="text-button" type="button">Back</button>
+      </div>
+
+      <p class="share-privacy-note">Created in your browser. Your words are never included.</p>
+    </section>
+
+    <section id="safetyConfirmationView" class="view crisis-view safety-confirmation-view"
+      aria-labelledby="safetyConfirmationTitle" aria-live="polite" hidden>
+      <div class="crisis-rule"></div>
+      <p class="catalog-label">Safety check</p>
+      <h2 id="safetyConfirmationTitle" tabindex="-1">Are you safe right now?</h2>
+      <p id="safetyConfirmationMessage" class="crisis-message">If you may act on thoughts of hurting yourself, immediate human support matters more than a literary passage.</p>
+      <div class="crisis-actions safety-confirmation-actions">
+        <button id="safetyNeedSupportButton" class="primary-button compact" type="button">I need immediate support</button>
+        <button id="safetyContinueButton" class="secondary-button" type="button">I’m safe right now — continue</button>
+      </div>
+    </section>
+
+    <section id="crisisView" class="view crisis-view" aria-labelledby="crisisTitle" aria-live="assertive" hidden>
+      <div class="crisis-rule"></div>
+      <p class="catalog-label">Safety information</p>
+      <h2 id="crisisTitle" tabindex="-1">Immediate support</h2>
+      <p id="crisisMessage" class="crisis-message">If you may hurt yourself or are in immediate danger, contact your local emergency services now. Contact someone you trust and ask them to stay with you while you reach support. You can also find confidential support in your country through Find a Helpline.</p>
+      <div class="crisis-actions">
+        <a class="primary-link" href="https://findahelpline.com" target="_blank" rel="noopener noreferrer" aria-label="Find confidential crisis support in your country">Find a helpline</a>
+        <button id="crisisBackButton" class="secondary-button" type="button">Back</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+      Public-domain originals · Sources shown where verified · Input may be sent to external services for semantic matching and safety checks; this project does not store the input
+  </footer>
+  <script src="app.js?v=20260816-bilingual-language-names"></script>
+</body>
+</html>
