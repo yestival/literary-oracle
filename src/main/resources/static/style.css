@@ -268,6 +268,12 @@ h1 {
   z-index: 1;
 }
 
+.card-face::before,
+.card-face > * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 .form-heading {
   display: flex;
   align-items: center;
@@ -678,6 +684,7 @@ input[type="range"]::-moz-range-thumb {
 
 .card-perspective {
   min-width: 0;
+  -webkit-perspective: 1600px;
   perspective: 1600px;
 }
 
@@ -695,11 +702,13 @@ input[type="range"]::-moz-range-thumb {
 .card-inner {
   position: relative;
   min-height: 430px;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: transform .72s cubic-bezier(.2, .72, .2, 1), height .35s ease;
 }
 
 .card-inner.is-flipped {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -720,9 +729,62 @@ input[type="range"]::-moz-range-thumb {
   -webkit-backface-visibility: hidden;
 }
 
+.card-front {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
 .card-back {
   background: var(--card-secondary);
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+}
+
+@supports (-webkit-touch-callout: none) {
+  .card-perspective {
+    -webkit-perspective: none;
+    perspective: none;
+  }
+
+  .card-inner,
+  .card-inner.is-flipped {
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+  }
+
+  .card-face,
+  .card-front,
+  .card-back {
+    -webkit-transform: none;
+    transform: none;
+    transition: opacity .25s ease;
+  }
+
+  .card-front {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .card-back {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .card-inner.is-flipped .card-front {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .card-inner.is-flipped .card-back {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 .card-metadata,

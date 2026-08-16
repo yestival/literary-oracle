@@ -30,7 +30,7 @@ class FrontendRenderingContractTests {
 
         assertAll(
                 () -> assertTrue(html.contains(
-                        "href=\"style.css?v=20260816-final-accessibility\"")),
+                        "href=\"style.css?v=20260816-ios-card-fix\"")),
                 () -> assertTrue(html.contains(
                         "src=\"app.js?v=20260816-bilingual-language-names\"")),
                 () -> assertFalse(html.contains("href=\"style.css\"")),
@@ -909,6 +909,49 @@ class FrontendRenderingContractTests {
                 () -> assertTrue(css.contains("overflow-wrap: anywhere")),
                 () -> assertTrue(css.contains("word-break: break-word")),
                 () -> assertTrue(css.contains("@media (max-width: 620px)")));
+    }
+
+    @Test
+    void cardFlipHasWebKitTransformsAndAnExclusiveIosFallback() throws IOException {
+        String css = read(STATIC_ROOT.resolve("style.css"));
+        String script = read(STATIC_ROOT.resolve("app.js"));
+        String inner = between(css, ".card-inner {", ".card-inner.is-flipped {");
+        String flipped = between(css, ".card-inner.is-flipped {", ".card-face {");
+        String front = between(css, ".card-front {", ".card-back {");
+        String back = between(css, ".card-back {", "@supports (-webkit-touch-callout: none)");
+        String ios = between(css, "@supports (-webkit-touch-callout: none) {",
+                ".card-metadata,");
+        String iosFront = between(ios, ".card-front {", ".card-back {");
+        String iosBack = between(ios, ".card-back {",
+                ".card-inner.is-flipped .card-front {");
+        String iosFlippedFront = between(ios, ".card-inner.is-flipped .card-front {",
+                ".card-inner.is-flipped .card-back {");
+        String iosFlippedBack = ios.substring(
+                ios.indexOf(".card-inner.is-flipped .card-back {"));
+
+        assertAll(
+                () -> assertTrue(css.contains("-webkit-perspective: 1600px")),
+                () -> assertTrue(inner.contains("-webkit-transform-style: preserve-3d")),
+                () -> assertTrue(flipped.contains("-webkit-transform: rotateY(180deg)")),
+                () -> assertTrue(flipped.contains("transform: rotateY(180deg)")),
+                () -> assertTrue(front.contains("-webkit-transform: rotateY(0deg)")),
+                () -> assertTrue(front.contains("transform: rotateY(0deg)")),
+                () -> assertTrue(back.contains("-webkit-transform: rotateY(180deg)")),
+                () -> assertTrue(back.contains("transform: rotateY(180deg)")),
+                () -> assertTrue(css.contains(".card-face::before,")
+                        && css.contains("-webkit-backface-visibility: hidden")),
+                () -> assertTrue(ios.contains("-webkit-transform: none")),
+                () -> assertTrue(ios.contains("transform-style: flat")),
+                () -> assertTrue(ios.contains("transition: opacity .25s ease")),
+                () -> assertTrue(iosFront.contains("visibility: visible")
+                        && iosFront.contains("pointer-events: auto")),
+                () -> assertTrue(iosBack.contains("visibility: hidden")
+                        && iosBack.contains("pointer-events: none")),
+                () -> assertTrue(iosFlippedFront.contains("visibility: hidden")
+                        && iosFlippedFront.contains("pointer-events: none")),
+                () -> assertTrue(iosFlippedBack.contains("visibility: visible")
+                        && iosFlippedBack.contains("pointer-events: auto")),
+                () -> assertTrue(script.contains("activeFace.scrollHeight")));
     }
 
     @SuppressWarnings("unchecked")
